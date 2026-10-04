@@ -158,8 +158,9 @@
       text-align: center;
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      gap: 12px;
       margin-top: 10px;
+      padding: 0 10px;
     }
 
     .footer-title {
@@ -170,21 +171,27 @@
       text-transform: uppercase;
     }
 
-    .footer-contact {
+    .footer-disclaimer {
       font-size: 10.5px;
       color: #4b5563;
-      font-weight: 500;
-      letter-spacing: 0.3px;
+      line-height: 1.6;
+      text-align: center;
     }
 
-    .footer-contact a {
+    .footer-feedback {
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .footer-feedback a {
       color: #1976d2;
       text-decoration: none;
-      font-weight: 600;
       transition: color 0.15s ease;
     }
 
-    .footer-contact a:hover {
+    .footer-feedback a:hover {
       color: #1557b0;
       text-decoration: underline;
     }
@@ -251,9 +258,15 @@
     <!-- Portal Footer -->
     <footer class="footer">
       <span class="footer-title">UCT STUDY &amp; MISSION PLANNING SUITE</span>
-      <span class="footer-contact">
-        For questions/concerns/feedback: <a href="mailto:oliver.gonzalez.1@us.af.mil">oliver.gonzalez.1@us.af.mil</a>
-      </span>
+      
+      <p class="footer-disclaimer">
+        DISCLAIMER: This form and all associated content are unofficial and are not intended to replace the study or use of official publications, guidance, or source documents. These materials are provided solely to supplement and assist with daily study by consolidating publicly available resources into an organized and up-to-date format. Information contained herein should not be quoted, cited, or treated as authoritative. Always verify information against the applicable official source.<br><br>
+        Live by the Gouge, Die by the Gouge.
+      </p>
+
+      <div class="footer-feedback">
+        <a href="https://forms.gle/E9z3JHMCZ7vycGvX8" target="_blank" rel="noopener noreferrer">Questions/Comments/Feedback</a>
+      </div>
     </footer>
 
   </div>
